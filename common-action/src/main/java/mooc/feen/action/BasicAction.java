@@ -12,7 +12,9 @@ public class BasicAction {
      * @param target    目标
      */
     public static void atk(CommonRole role, List<CommonRole> target) {
-
+        for (CommonRole commonRole : target) {
+//            commonRole.
+        }
     }
 
     /**

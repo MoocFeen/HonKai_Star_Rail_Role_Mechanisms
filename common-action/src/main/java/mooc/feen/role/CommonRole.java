@@ -6,8 +6,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-@Builder
-public abstract class CommonRole {
+public  class CommonRole {
     /**
      * 攻击力
      */
@@ -28,5 +27,8 @@ public abstract class CommonRole {
      */
     private Integer energy;
 
+    /**
+     * 速度
+     */
     private Integer speed;
 }
